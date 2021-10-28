@@ -1,0 +1,9 @@
+var SessionStore = function() {
+	if (typeof( Storage ) !== 'undefined') {
+		localStorage.setItem('session', JSON.stringify({"id":1970716870,"partner_code_id":null,"ad_offer_id":null,"last_activity":"2021-10-28 11:13:42","user_id":66664903,"utm_id":1256,"fuid":"66664903","fpid":null,"city_id":null}));
+		localStorage.setItem('visit', JSON.stringify({"id":3692850655,"sid":1970716870}));
+		localStorage.setItem('visitor', JSON.stringify({"id":1624732466,"sfix":1}));
+		localStorage.setItem('hash', 'f74824e984fb8c66c3381f3eb1cfe34c');
+	}
+}
+SessionStore();
