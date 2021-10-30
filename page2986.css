@@ -57,11 +57,24 @@ body {
     left: 24px;
 }
 
-.lt-tsr-block .lt-tsr-content > .f-subheader {
+.lt-tsr-block .lt-tsr-content>.f-subheader {
     left: 24px;
     position: absolute;
     top: 34px;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
+}
+
+
+.info-bar {
+    position: absolute;
+    top: 174px;
+    color: #fff;
+    z-index: 10;
+    padding-left: 15px;
+}
+
+.info-bar > span:nth-child(1) {
+    margin-right: 60px;
 }

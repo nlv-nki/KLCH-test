@@ -15,10 +15,15 @@
 
 const addSticky = () => {
    const imageIcard = document.querySelectorAll('.image-card');
-   console.log(imageIcard, 111111111111111);
    imageIcard.forEach(item => item.insertAdjacentHTML('beforeend', '<div class="round-sticky">NEW</div>'));
 };
+
+const addInfoBar = () => {
+    const container = document.querySelectorAll('.lt-tsr-content');
+    container.forEach(item => item.insertAdjacentHTML('afterbegin', '<div class="info-bar"><span class="info-bar__lessons">29 уроков</span><span class="info-bar__pupils">129 учеников</span></div>'))
+}
 
 
 genConrolsBtn();
 addSticky();
+addInfoBar() 
