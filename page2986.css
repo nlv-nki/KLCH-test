@@ -1,11 +1,13 @@
 body {
     background-color: #fff;
 }
+
 .button {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .button .btn-add {
     width: 100%;
 }
@@ -21,23 +23,45 @@ body {
     min-height: 150px;
 }
 
-.lt-tsr-block { 
+.lt-tsr-block {
     max-width: 350px;
 }
 
 .image-card {
     position: relative;
 }
+
 .round-sticky {
     width: 80px;
     height: 80px;
     border: 2px solid red;
-    color:#fff;
+    color: #fff;
     border-radius: 50%;
     line-height: 75px;
-    text-align: center; 
-    background:#ff4441;
+    text-align: center;
+    background: #ff4441;
     position: absolute;
     top: 16px;
     right: 20px;
-  }
+}
+
+
+.lt-tsr-block .f-subheader,
+.lt-tsr-block .f-header {
+    color: #fff !important;
+}
+
+.lt-tsr-block .f-header {
+    position: absolute;
+    top: 140px;
+    left: 24px;
+}
+
+.lt-tsr-block .lt-tsr-content > .f-subheader {
+    left: 24px;
+    position: absolute;
+    top: 34px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
