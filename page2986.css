@@ -24,3 +24,20 @@ body {
 .lt-tsr-block { 
     max-width: 350px;
 }
+
+.image-card {
+    position: relative;
+}
+.round-sticky {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    color:#fff;
+    border-radius: 50%;
+    line-height: 75px;
+    text-align: center; 
+    background:#ff4441;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+  }
