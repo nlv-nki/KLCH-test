@@ -20,3 +20,7 @@ body {
 .f-description {
     min-height: 150px;
 }
+
+.lt-tsr-block { 
+    max-width: 350px;
+}
